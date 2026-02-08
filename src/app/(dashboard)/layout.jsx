@@ -1,10 +1,6 @@
 import { TopNav } from "@/components/nav";
 
-export default function DashboardLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function DashboardLayout({ children }) {
   return (
     <>
       <TopNav title="Dashboard" />
